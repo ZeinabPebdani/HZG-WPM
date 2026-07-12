@@ -1,0 +1,29 @@
+O-Phase Ti2AlMo
+############################
+ISTART = 0
+ICHARG = 2
+############################
+PREC = Accurate
+ADDGRID = .TRUE
+ISIF = 3
+IBRION = 2
+EDIFF  =  1E-9
+EDIFFG =  -1E-7
+NSW = 1
+NELM= 100
+ENCUT  = 600
+LPANE = .TRUE
+#############################
+ISMEAR = 1
+SIGMA = 0.1
+#############################
+ISYM = 1
+LWAVE = .FALSE.
+LCHARG = .FALSE.
+NCORE = 4
+LMAXMIX = 4 
+LPLANE = .TRUE
+KPAR = 4
+LSCALU = .FALSE
+NSIM = 4
+
